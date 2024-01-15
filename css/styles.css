@@ -25,8 +25,15 @@ body {
 
 .gallery-image {
   max-width: 100%;
+  width: 360px;
+  height: 200px;
 }
 
 .gallery-item:hover {
   transform: scale(1.04);
+}
+
+.instance-image {
+  width: 1112px;
+  height: 640px;
 }

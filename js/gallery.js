@@ -77,8 +77,6 @@ const items = images
                     src="${preview}"
                     data-source="${original}"
                     alt="${description}"
-                    width="360"
-                    height="200"
                 />
             </a>
         </li>`
@@ -96,7 +94,7 @@ const onclickGalleryItem = (event) => {
 
   const instance = basicLightbox.create(`
     <div class="gallery">
-        <img src="${event.target.dataset.source}" width="1112" height="640"/>    
+        <img class="instance-image" src="${event.target.dataset.source}" />    
     </div>
     `);
 
